@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bublly.bemedisure">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home_Page"
+            android:label="Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Deaseses_Search"
+            android:label="Search Diseses"
+            android:parentActivityName=".Home_Page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Medicine_Search"
+            android:label="Search Medicines"
+            android:parentActivityName=".Home_Page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Doctor_Search"
+            android:label="Search Doctors"
+            android:parentActivityName=".Home_Page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AllDoctorActivity"
+            android:label="@string/title_activity_alldoctor"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Audiologist"
+            android:label="@string/title_activity_audiologist"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Allergist"
+            android:label="@string/title_activity_allergist"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".alle0001"
+            android:label="@string/title_activity_alle0001"
+            android:parentActivityName=".Allergist"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cardiologist"
+            android:label="@string/title_activity_cardiologist"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Dentist"
+            android:label="@string/title_activity_dentist"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Dermatolosist"
+            android:label="@string/title_activity_dermatolosist"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Microbiologist"
+            android:label="@string/title_activity_microbiologist"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Gynecologist"
+            android:label="@string/title_activity_gynecologist"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Orthopedic_Surgeon"
+            android:label="@string/title_activity_orthopedic__surgeon"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Physician"
+            android:label="@string/title_activity_physician"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pediatrician"
+            android:label="@string/title_activity_pediatrician"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Psychiatrist"
+            android:label="@string/title_activity_psychiatrist"
+            android:parentActivityName=".Doctor_Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LogIN"
+            android:label="@string/title_activity_log_in"
+            android:parentActivityName=".Home_Page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
+            android:parentActivityName=".Home_Page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".alle0002"
+            android:label="@string/title_activity_alle0002"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".audi0001"
+            android:label="@string/title_activity_audi0001"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".audi0002"
+            android:label="@string/title_activity_audi0002"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".card0001"
+            android:label="@string/title_activity_card0001"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".card0002"
+            android:label="@string/title_activity_card0002"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".dent0001"
+            android:label="@string/title_activity_dent0001"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".dent0002"
+            android:label="@string/title_activity_dent0002"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAQFOqH_exXaXHeqsm4n7-dhUWNRCnjBEM" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_locate_doctors" />
+        <activity
+            android:name=".Medical_Info"
+            android:label="@string/title_activity_medical__info"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Dengue"
+            android:label="@string/title_activity_dengue"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Symptoms_Search"
+            android:label="@string/title_activity_symptoms__search"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pneumonia"
+            android:label="@string/title_activity_pneumonia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Acetaminophen"
+            android:label="@string/title_activity_acetaminophen"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
